@@ -5,9 +5,11 @@
     "framer-motion": "^11.2.10",
     "framer-motion-3d": "^11.2.10",
     "react-router": "^6.23.1",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "three": "^0.165.0"
   },
   "devDependencies": {
+    "@types/three": "^0.165.0",
     "sass": "^1.77.6",
     "vite": "^5.3.1"
   }
