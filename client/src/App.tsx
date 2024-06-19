@@ -2,6 +2,7 @@ import * as React from 'react';
 import { LoadingPage } from './components/loading';
 import { RouterProvider } from "react-router";
 import router from './router'
+import './App.scss'
 function App() {
 
   return (

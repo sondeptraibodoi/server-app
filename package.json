@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "@react-three/fiber": "^8.16.8",
+    "@studio-freight/lenis": "^1.0.42",
     "framer-motion": "^11.2.10",
+    "framer-motion-3d": "^11.2.10",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1"
   },
