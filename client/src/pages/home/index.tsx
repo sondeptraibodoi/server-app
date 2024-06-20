@@ -1,3 +1,4 @@
+import { Canvas } from '@react-three/fiber';
 import style from './home.module.scss';
 import { lazy } from 'react';
 // import SmoothScroll from '@/hook/useScroll';
@@ -7,7 +8,9 @@ const HomePage = () => {
   return (
     <SmoothScroll>
       <div className={style.home}>
-        <Earth />
+        <Canvas>
+          <Earth />
+        </Canvas>
       </div>
     </SmoothScroll>
   )
