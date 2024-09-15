@@ -37,10 +37,10 @@ const Earth = () => {
         )
         tl.current.from(
             ref.current?.position as Vector3, {
-                duration: 0.5,
+                duration: -5,
                 x: 1,
                 y: 1
-            }, 0.5
+            }, -5
         )
     }, [])
 
